@@ -53,6 +53,8 @@ function [IOut,output] = denoiseImageGlobal(Image, sigma, varargin)
 %fildNameForGlobalDictionary = 'globalTrainedDictionary';
 fildNameForGlobalDictionary = 'dictfile';
 
+disp('flag');
+
 Reduce_DC = 1;
 [NN1,NN2] = size(Image);
 waitBarOn = 1;
